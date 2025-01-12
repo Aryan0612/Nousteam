@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tab-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.tab-button.active {
+  background-color: #3e8e41;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+table {
+  margin-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.bar-chart {
+  margin-top: 20px;
+}
+
+.gauge-chart {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
